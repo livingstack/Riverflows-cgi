@@ -400,14 +400,14 @@ emailincreaseflowsmessage = "There has been at least a 200 cfs flow increase"
 
 
 
-recipientemail = "dyeman20@gmail.com"
+recipientemail = "insertemailhere"
 
 server = smtplib.SMTP(host="smtp.gmail.com",port = 587)
 server.starttls()
-server.login("dyeman20", "qztjgfohlkkwivrr")
+server.login("insertemailhere","insertpwdhere" )
 msg = MIMEMultipart()
-msg['From']="dyeman20@gmail.com"
-msg['To']="dyeman20@gmail.com"
+msg['From']="insertemailhere"
+msg['To']="insertemailhere"
 #msg['subject']=""
 
 
